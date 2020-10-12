@@ -6,7 +6,7 @@ class TicTacToe
     
   end
   # Here we make Hash with 9 dots and then use modulos 3 to make dots arranged by 3 so I used /n to make new 
-  line between dots, that makes string included our array which we have to use join at the end of array to convert string
+  #line between dots, that makes string included our array which we have to use join at the end of array to convert string
 
   def visualize
     joined = @board.map do |pos, sym|
